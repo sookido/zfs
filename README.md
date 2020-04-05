@@ -1,4 +1,5 @@
 # zfs
+centos8
 ```sh
 sed -i -e "s/^SELINUX=enforcing$/SELINUX=disabled/g" /etc/selinux/config
 systemctl stop firewalld
