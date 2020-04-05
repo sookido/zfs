@@ -1,5 +1,5 @@
 # zfs
-
+```sh
 sed -i -e "s/^SELINUX=enforcing$/SELINUX=disabled/g" /etc/selinux/config
 systemctl stop firewalld
 systemctl disable firewalld 
@@ -11,3 +11,4 @@ yum install zfs
 
 reboot
 zpool import tank2
+```
