@@ -13,3 +13,12 @@ yum install zfs
 reboot
 zpool import tank2
 ```
+
+```sh
+
+go https://myaccount.google.com/
+
+open security tab
+
+Less secure app access ON
+```
